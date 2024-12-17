@@ -1,29 +1,24 @@
-Javascript Tetris
-=================
+# JavaScript Tetris Game
 
-An HTML5 Tetris Game
+This is a JavaScript version of the classic Tetris game that runs directly in your web browser. The game's interface includes a main playing area where Tetrominoes (the Tetris blocks) descend, and a sidebar displaying your current score and the number of rows you've cleared.
 
- * [play the game](http://codeincomplete.com/projects/tetris/)
- * read a [blog article](http://codeincomplete.com/posts/2011/10/10/javascript_tetris/)
- * view the [source](https://github.com/jakesgordon/javascript-tetris)
+## How to Play
 
->> _*SUPPORTED BROWSERS*: Chrome, Firefox, Safari, Opera and IE9+_
+### Start the Game
+- Press the Space key or click on the "Press Space to Play" link to begin.
 
-FUTURE
-======
+### Objective
+- Arrange the falling Tetrominoes to form complete horizontal lines without any gaps.
 
- * menu
- * animation and fx
- * levels
- * high scores
- * touch support
- * music and sound fx
+### Gameplay
+- **Manipulate Blocks**: As the Tetrominoes fall, use your keyboard controls to move and rotate them.
+- **Clear Lines**: When you fill an entire row, it will disappear, and you'll earn points.
 
+### Scoring
+- Your current score and the total rows cleared are displayed on the sidebar.
+- Strive to clear as many lines as possible to increase your score.
 
-License
-=======
+### Game Over
+- The game ends when the stack of Tetrominoes reaches the top of the playing field.
 
-[MIT](http://en.wikipedia.org/wiki/MIT_License) license.
-
-
-
+Enjoy stacking the blocks and aim for the highest score!
